@@ -1,0 +1,21 @@
+.a4 {
+  border: 1px solid black;
+  display: flex;
+  font-family: 'Russo One';
+  height: 29.7cm;
+  margin: auto;
+  width: 21cm;
+  /* Print PDF with exact colors (like bg-color) - Chrome Browser: */
+  -webkit-print-color-adjust:exact;
+}
+
+.main {
+  padding: 2cm 1.5cm;
+  width: 70%;
+}
+
+.side {
+  background-color: var(--c-blue);
+  color: white;
+  width: 30%;
+}

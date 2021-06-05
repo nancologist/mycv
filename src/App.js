@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Template from './layout/template';
+import Main from './components/Main.js'
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="app">
+      <Template
+        main={<Main />}
+        side="fjksdfjkasfjk"
+      />
     </div>
   );
 }
