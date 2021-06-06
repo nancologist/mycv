@@ -1,6 +1,11 @@
 /* Fonts -------------- */
 
-/* Maven Pro, Overlock (700), Lato, Montserrat */
+/* 
+Maven Pro, 
+Overlock (700), 
+Lato, 
+Montserrat 
+*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Maven+Pro:wght@400;600;800&family=Montserrat:ital,wght@0,100;0,400;0,600;1,900&family=Overlock:wght@700&display=swap');
 
 /* Russo One
@@ -20,4 +25,27 @@ Racing Sans One */
 
 :root {
   --c-blue: #082b4d;
+}
+
+body {
+  background-color: #ccc;
+}
+
+p {
+  margin: 0.5cm 0;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .a4, .a4 * {
+    visibility: visible !important;
+  }
+
+  .a4 {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+  }
 }
