@@ -1,4 +1,37 @@
+.side__section {
+  width: 100%;
+  text-align: left;
+  padding-left: 0.8cm;
+  margin: 20px 0;
+}
+
+.section__title {
+  margin-bottom: 0.3cm;
+}
+
+/* CV Pic */
+.pic-container {
+  margin-bottom: 20px;
+}
 .pic {
-  width: 200px;
+  width: 175px;
   border-radius: 50%;
+}
+
+
+/* Contact */
+.contact p {
+  margin: 0.2cm 0;
+}
+
+
+/* Links */
+.links .section__body ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.links .section__body li {
+  width: 40%;
+  padding: 5px 0;
 }
