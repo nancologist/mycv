@@ -1,7 +1,15 @@
 import React from 'react';
+import AppItem from '../AppItem';
 import './index.css';
 
 export default (props) => {
+
+  const myTasks = [
+    'TDD, End2End Testing, BE and FE Projects',
+    'Agile Projects, Kanban, Scrum, Jira, Confluence, GitLab',
+    'Security and hacking sessions',
+  ];
+
   return (
     <>
       <div className="section title">
@@ -17,7 +25,21 @@ export default (props) => {
       </div>
 
       <div className="section employment">
-        <h2>Employment</h2>
+        <h2>Experience</h2>
+        <AppItem
+          fromDate="Jul 2019"
+          toDate="Jan 2021"
+          jobTitle="Web Developer"
+          companyName="Publicis Pixelpark - Berlin"
+          jobTasks={myTasks}
+        />
+        <AppItem
+          fromDate="Jul 2019"
+          toDate="Jan 2021"
+          jobTitle="Web Developer"
+          companyName="Publicis Pixelpark - Berlin"
+          jobTasks={myTasks}
+        />
       </div>
 
       <div className="section education">
