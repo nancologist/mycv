@@ -1,0 +1,30 @@
+.cmp {
+  margin-bottom: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 5px;
+}
+
+.subTitle {
+  font-style: italic;
+}
+
+.date {
+  font-size: small;
+  font-weight: bold;
+}
+
+.list {
+  font-size: 13px;
+  list-style: disc;
+}
+
+.list li {
+  margin-left: 25px;
+}

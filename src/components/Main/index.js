@@ -1,6 +1,6 @@
 import React from 'react';
 import AppItem from '../AppItem';
-import './index.css';
+import './Main.css';
 
 export default (props) => {
 

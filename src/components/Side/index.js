@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './Side.css';
 import mypic from '../../assets/img/mori.jpeg';
 
 import links from '../../data/my-links.json';
