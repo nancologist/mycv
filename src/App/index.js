@@ -1,7 +1,7 @@
 import './App.css';
-import Template from './layout/template';
-import Main from './components/Main';
-import Side from './components/Side';
+import Template from '../layout/template';
+import Main from '../components/Main';
+import Side from '../components/Side';
 
 function App() {
   const print = () => {
