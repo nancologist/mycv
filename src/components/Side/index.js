@@ -4,7 +4,7 @@ import mypic from '../../assets/img/mori.jpeg';
 
 import links from '../../data/my-links.json';
 
-export default () => {
+const Side = () => {
   return (
     <>        
       <div className="pic-container">
@@ -30,7 +30,7 @@ export default () => {
           <ul>
             {links.map(link => (
               <li>
-                <a target="_blank" href={link.link}>{link.label}</a>  
+                <a target="_blank" rel="noreferrer" href={link.link}>{link.label}</a>  
               </li>
             ))}
           </ul>
@@ -48,3 +48,5 @@ export default () => {
     </>
   );
 }
+
+export default Side;

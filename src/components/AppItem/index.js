@@ -1,8 +1,11 @@
 import React from 'react';
 import styles from './AppItem.module.css';
 
-export default (props) => {
-  const { fromDate, toDate, companyName, jobTitle, jobTasks } = props; 
+const AppItem = (props) => {
+  const { fromDate, toDate, companyName, jobTitle, jobTasks } = props;
+
+  let formattedDate = fromDate
+  if (toDate) formattedDate += ' - ' + toDate;
 
   return (
     <div className={styles.cmp}>
@@ -12,7 +15,7 @@ export default (props) => {
           <h3>{jobTitle}</h3>
           <span className={styles.subTitle}>{companyName}</span>
         </div>
-        <div className={styles.date}>{fromDate} - {toDate}</div>
+        <div className={styles.date}>{formattedDate}</div>
       </div>
       
       <div className={styles.content}>
@@ -24,3 +27,5 @@ export default (props) => {
     </div>
   );
 };
+
+export default AppItem;

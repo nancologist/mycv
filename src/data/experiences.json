@@ -1,13 +1,53 @@
 [
   {
     "jobTitle": "Web Developer",
+    "companyName": "CompuGroup Medical/Docmetric - Berlin",
+    "from": "May 2021",
+    "to": "present",
+    "tasks": [
+      "Developing and Engineering Medical Statistic Applications",
+      "Techs: ElasticSearch, Python, Sanic, Flask, JS, VueJS, Sass, Docker, GitLab, Jira, Confluence"
+    ]
+  },
+  {
+    "jobTitle": "Backend Developer",
+    "companyName": "dotSource GmbH - Berlin",
+    "from": "Apr 2021",
+    "tasks": [
+      "Parcticing CommerceTools Microservices",
+      "Tech: NodeJS, ExpressJS, TS, CommerceTools"
+    ]
+  },
+  {
+    "jobTitle": "CTO/Web Developer",
+    "companyName": "Großjungig AI - Berlin",
+    "from": "Mar 2021",
+    "to": "Apr 2021",
+    "tasks": [
+      "Directing and Coordinating Dev Team",
+      "Defining Style Guides", 
+      "Fullstack Development",
+      "Techs: NodeJS, ExpressJS, ReactJS, MongoDB, Trello, Slack"
+    ]
+  },
+  {
+    "jobTitle": "Web Developer",
     "companyName": "Publicis Pixelpark - Berlin",
-    "to": "Jan 2021",
     "from": "Jul 2019",
+    "to": "Jan 2021",
     "tasks": [
       "TDD, End2End Testing, BE and FE Projects",
       "Agile Projects, Kanban, Scrum, Jira, Confluence, GitLab",
-      "Security and hacking sessions"
+      "Security and hacking sessions",
+      "Techs: Java, JS, Selenium, Spring, jQuery, VueJS, Confluence, Jira, GitLab, MS Teams"
+    ]
+  },
+  {
+    "jobTitle": "Web Developer (Internship)",
+    "companyName": "Zone35 - Berlin",
+    "from": "May 2019",
+    "tasks": [
+      "Practicing: HTML, CSS, TYPO3"
     ]
   }
 ]

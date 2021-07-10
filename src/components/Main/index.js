@@ -1,14 +1,9 @@
 import React from 'react';
 import AppItem from '../AppItem';
 import './Main.css';
+import xps from '../../data/experiences.json'
 
-export default (props) => {
-
-  const myTasks = [
-    'TDD, End2End Testing, BE and FE Projects',
-    'Agile Projects, Kanban, Scrum, Jira, Confluence, GitLab',
-    'Security and hacking sessions',
-  ];
+const Main = (props) => {
 
   return (
     <>
@@ -26,20 +21,17 @@ export default (props) => {
 
       <div className="section employment">
         <h2>Experience</h2>
-        <AppItem
-          fromDate="Jul 2019"
-          toDate="Jan 2021"
-          jobTitle="Web Developer"
-          companyName="Publicis Pixelpark - Berlin"
-          jobTasks={myTasks}
-        />
-        <AppItem
-          fromDate="Jul 2019"
-          toDate="Jan 2021"
-          jobTitle="Web Developer"
-          companyName="Publicis Pixelpark - Berlin"
-          jobTasks={myTasks}
-        />
+        {xps.map(xp => {
+          return (
+            <AppItem
+              fromDate={xp.from}
+              toDate={xp.to}
+              jobTitle={xp.jobTitle}
+              companyName={xp.companyName}
+              jobTasks={xp.tasks}
+            />
+          );
+        })}
       </div>
 
       <div className="section education">
@@ -52,3 +44,5 @@ export default (props) => {
     </>
   );
 };
+
+export default Main;

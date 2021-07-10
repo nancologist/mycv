@@ -1,7 +1,7 @@
 import React from 'react';
 import './template.css';
 
-export default (props) => {
+const Template = (props) => {
   return (
     <div className="a4">
       <div className="main">
@@ -13,3 +13,5 @@ export default (props) => {
     </div>
   );
 };
+
+export default Template;
