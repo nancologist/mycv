@@ -20,7 +20,7 @@ const AppItem = (props) => {
       
       <div className={styles.content}>
         <ul className={styles.list}>
-          {jobTasks.map((item) => (<li key={item}>{item}</li>))}
+          {jobTasks.map((item, index) => (<li key={index}>{item}</li>))}
         </ul>
       </div>
 

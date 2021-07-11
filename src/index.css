@@ -48,7 +48,7 @@ ul {
 }
 
 /* PRINT ONLY div.a4 ELEMENT: */
-@media print {
+/* @media print {
   body * {
     visibility: hidden;
   }
@@ -61,4 +61,4 @@ ul {
     left: 0;
     top: 0;
   }
-}
+} */

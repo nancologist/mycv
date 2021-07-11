@@ -28,11 +28,17 @@ const Side = () => {
         <h3 className="section__title">Links</h3>
         <div className="section__body">
           <ul>
-            {links.map(link => (
-              <li>
-                <a target="_blank" rel="noreferrer" href={link.link}>{link.label}</a>  
-              </li>
-            ))}
+            {links.map(link => {
+              return (
+                <li key={link.label}>
+                  <a
+                    href={link.link}
+                    rel="noreferrer"
+                    target="_blank"
+                  >{link.label}</a>  
+                </li>
+              )
+            })}
           </ul>
         </div>
       </div>

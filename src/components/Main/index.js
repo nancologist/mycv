@@ -24,6 +24,7 @@ const Main = (props) => {
         {xps.map(xp => {
           return (
             <AppItem
+              key={xp.companyName}
               fromDate={xp.from}
               toDate={xp.to}
               jobTitle={xp.jobTitle}
