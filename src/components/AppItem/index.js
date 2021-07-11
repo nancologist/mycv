@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './AppItem.module.css';
 
 const AppItem = (props) => {
-  const { fromDate, toDate, companyName, jobTitle, jobTasks } = props;
+  const { fromDate, toDate, name, title, details } = props;
 
   let formattedDate = fromDate
   if (toDate) formattedDate += ' - ' + toDate;
@@ -12,15 +12,15 @@ const AppItem = (props) => {
       
       <div className={styles.header}>
         <div className={styles.title}>
-          <h3>{jobTitle}</h3>
-          <span className={styles.subTitle}>{companyName}</span>
+          <h3>{title}</h3>
+          <span className={styles.subTitle}>{name}</span>
         </div>
         <div className={styles.date}>{formattedDate}</div>
       </div>
       
       <div className={styles.content}>
         <ul className={styles.list}>
-          {jobTasks.map((item, index) => (<li key={index}>{item}</li>))}
+          {details.map((detail, index) => (<li key={index}>{detail}</li>))}
         </ul>
       </div>
 

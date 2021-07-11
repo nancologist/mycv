@@ -1,7 +1,9 @@
-.app {
-  padding: 0 5px;
-}
-
 h2 {
+  background-color: var(--c-blue);
+  color: white;
+  display: inline-block;
+  padding: 0.1cm 0.1cm 0.1cm 0.8cm;
   margin-bottom: 10px;
+  margin-left: -0.9cm;
+  width: 8cm;
 }

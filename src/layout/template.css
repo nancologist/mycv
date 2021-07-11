@@ -4,7 +4,7 @@
   display: flex;
   font-family: 'Lato';
   height: 29.7cm;
-  margin: 0 auto;
+  margin: 1mm auto;
   width: 21cm;
   /* Print PDF with exact colors (like bg-color) - Chrome Browser: */
   -webkit-print-color-adjust:exact;

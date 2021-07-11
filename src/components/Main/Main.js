@@ -24,23 +24,15 @@ const Main = (props) => {
         {xps.map(xp => {
           return (
             <AppItem
-              key={xp.companyName}
+              key={xp.name}
               fromDate={xp.from}
               toDate={xp.to}
-              jobTitle={xp.jobTitle}
-              companyName={xp.companyName}
-              jobTasks={xp.tasks}
+              title={xp.title}
+              name={xp.name}
+              details={xp.details}
             />
           );
         })}
-      </div>
-
-      <div className="section education">
-        <h2>Education</h2>
-      </div>
-
-      <div className="section certs">
-        <h2>Certifications</h2>
       </div>
     </>
   );
