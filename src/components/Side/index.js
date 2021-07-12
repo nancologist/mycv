@@ -19,7 +19,10 @@ const Side = () => {
           <p>Germany</p>
           <p>+49 157 587 48279</p>
           <p>
-            <a href = "mailto: nancologist@gmail.com">nancologist@gmail.com</a>
+            <a href="mailto: nancologist@gmail.com">nancologist@gmail.com</a>
+          </p>
+          <p>
+            <a href="https://www.nancologist.com" target="_blank" rel="noopener noreferrer">www.nancologist.com</a>
           </p>
         </div>
       </div>
