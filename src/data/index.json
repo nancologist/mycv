@@ -140,11 +140,11 @@
           "level": 4
         },
         {
-          "name": "VueJS",
+          "name": "Python (Sanic, FastAPI, Flusk)",
           "level": 4
         },
         {
-          "name": "TypeScript",
+          "name": "Java (Spring)",
           "level": 3
         }
       ]

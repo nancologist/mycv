@@ -37,8 +37,10 @@
 }
 
 /* Skills */
-.skills .section__body p {
-  margin-bottom: 10px;
+.skills .section__body .scope {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .skill {

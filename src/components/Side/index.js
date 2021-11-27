@@ -53,7 +53,7 @@ const Side = () => {
             skills.map(({ scope, techs }) => {
               return (
                 <>
-                  <span>{scope}:</span>
+                  <span className="scope"><b>{scope}:</b></span>
                   {
                     techs.map(({ name, level }) => (
                       <div className="skill">
@@ -70,6 +70,9 @@ const Side = () => {
               )
             })
           }
+
+          <span className="scope"><b>Others:</b></span>
+          <span>Docker, Firebase, AWS, GraphQL, React Native, MongoDB, SQL, PHP, jQuery</span>
           
         </div>
       </div>
