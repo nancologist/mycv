@@ -71,15 +71,13 @@ const Side = () => {
             })
           }
 
+          <span className="scope"><b>Testing:</b></span>
+          <span>JUnit, Selenium, Puppeteer, Mockito, ...</span>
+
           <span className="scope"><b>Others:</b></span>
           <span>Docker, Firebase, AWS, GraphQL, React Native, MongoDB, SQL, PHP, jQuery</span>
           
         </div>
-      </div>
-
-      <div className="side__section langs">
-        <h3 className="section__title">Languages</h3>
-        <div className="section__body">German, English</div>
       </div>
     </>
   );
