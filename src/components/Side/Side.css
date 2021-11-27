@@ -35,3 +35,28 @@
   width: 40%;
   padding: 5px 0;
 }
+
+/* Skills */
+.skills .section__body p {
+  margin-bottom: 10px;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill__level {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.skill__level div {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 3px;
+  width: 16px; height: 7px;
+}
+
+.skill__level .bg-white {
+  background-color: white;
+}

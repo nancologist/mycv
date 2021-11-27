@@ -112,5 +112,42 @@
         "Practicing: HTML, CSS, TYPO3"
       ]
     }
+  ],
+
+  "skills": [
+    {
+      "scope": "Frontend",
+      "techs": [
+        {
+          "name": "ReactJS",
+          "level": 4
+        },
+        {
+          "name": "VueJS",
+          "level": 4
+        },
+        {
+          "name": "TypeScript",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "scope": "Backend",
+      "techs": [
+        {
+          "name": "NodeJS (ExpressJS)",
+          "level": 4
+        },
+        {
+          "name": "VueJS",
+          "level": 4
+        },
+        {
+          "name": "TypeScript",
+          "level": 3
+        }
+      ]
+    }
   ]
 }

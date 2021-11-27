@@ -2,7 +2,7 @@ import React from 'react';
 import './Side.css';
 import mypic from '../../assets/img/mori.jpeg';
 
-import { myLinks } from '../../data';
+import { myLinks, skills } from '../../data';
 
 const Side = () => {
   return (
@@ -46,8 +46,32 @@ const Side = () => {
         </div>
       </div>
 
-      <div className="side__section links">
+      <div className="side__section skills">
         <h3 className="section__title">Skills</h3>
+        <div className="section__body">
+          {
+            skills.map(({ scope, techs }) => {
+              return (
+                <>
+                  <span>{scope}:</span>
+                  {
+                    techs.map(({ name, level }) => (
+                      <div className="skill">
+                        <span>{name}</span>
+                        <div className="skill__level">
+                          {
+                            [1, 2, 3, 4, 5].map(num => <div className={ level >= num ? 'bg-white' : null }></div>)
+                          }
+                        </div>
+                      </div>
+                    ))
+                  }
+                </>
+              )
+            })
+          }
+          
+        </div>
       </div>
 
       <div className="side__section langs">
