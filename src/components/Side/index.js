@@ -2,7 +2,7 @@ import React from 'react';
 import './Side.css';
 import mypic from '../../assets/img/mori.jpeg';
 
-import links from '../../data/my-links.json';
+import { myLinks } from '../../data';
 
 const Side = () => {
   return (
@@ -31,7 +31,7 @@ const Side = () => {
         <h3 className="section__title">Links</h3>
         <div className="section__body">
           <ul>
-            {links.map(link => {
+            {myLinks.map(link => {
               return (
                 <li key={link.label}>
                   <a

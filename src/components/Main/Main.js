@@ -1,7 +1,7 @@
 import React from 'react';
 import AppItem from '../AppItem';
 import './Main.css';
-import xps from '../../data/experiences.json'
+import { workXps } from '../../data/'
 
 const Main = (props) => {
 
@@ -21,7 +21,7 @@ const Main = (props) => {
 
       <div className="section employment">
         <h2>Experience</h2>
-        {xps.map(xp => {
+        {workXps.map(xp => {
           return (
             <AppItem
               key={xp.name}
