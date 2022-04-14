@@ -1,12 +1,12 @@
 import React from 'react';
 import AppItem from '../AppItem';
-import { eductions } from '../../data';
+import { educations } from '../../data';
 
 const Main2 = () => {
   return (<>
     <div className="section education">
       <h2>Education</h2>
-      {eductions.map(edu => {
+      {educations.map(edu => {
           return (
             <AppItem
               key={edu.name}
