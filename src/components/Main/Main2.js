@@ -4,6 +4,14 @@ import { educations } from '../../data';
 
 const Main2 = () => {
   return (<>
+    <div className="section">
+      <h2>Private Projects</h2>
+      <p>ToDo....</p>
+    </div>
+    <div className="section certs">
+      <h2>IT Certifications</h2>
+      <p>ToDo....</p>
+    </div>
     <div className="section education">
       <h2>Education</h2>
       {educations.map(edu => {
@@ -18,10 +26,6 @@ const Main2 = () => {
             />
           );
         })}
-    </div>
-
-    <div className="section certs">
-      <h2>Certifications</h2>
     </div>
   </>);
 };
