@@ -23,7 +23,7 @@ export const workXps = [
   {
     "title": "CTO/Developer",
     "name": "Großjungig AI - Berlin",
-    "from": "Mar 2021",
+    "from": "Feb 2021",
     "to": "Apr 2021",
     "details": [
       "Directing and Coordinating Dev Team",
