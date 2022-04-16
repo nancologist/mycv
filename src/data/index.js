@@ -1,11 +1,12 @@
 export const workXps = [
   {
-    "title": "Web Developer",
+    "title": "Fullstack Developer",
     "name": "CompuGroup Medical/Docmetric - Berlin",
     "from": "May 2021",
     "to": "present",
     "details": [
       "Developing and Engineering Medical Statistic Applications",
+      "Amending the source code quality and structure (modularizing)",
       "Techs: ElasticSearch, Python, Sanic, Flask, TS, React, Vue, Sass, Docker",
       "Tools: WebStorm, PyCharm, Jira, Confluence"
     ]
@@ -32,9 +33,9 @@ export const workXps = [
     ]
   },
   {
-    "title": "Web Developer",
+    "title": "Fullstack Developer (Apprenticeship)",
     "name": "Publicis Pixelpark - Berlin",
-    "from": "Jul 2019",
+    "from": "Sep 2019",
     "to": "Jan 2021",
     "details": [
       "TDD, End2End Testing, BE and FE Projects",
@@ -42,15 +43,15 @@ export const workXps = [
       "Security and hacking sessions",
       "Techs: Java, JS, Selenium, Spring, jQuery, VueJS, Confluence, Jira, GitLab, MS Teams"
     ]
-  },
-  {
-    "title": "Web Developer (Internship)",
-    "name": "Zone35 - Berlin",
-    "from": "May 2019",
-    "details": [
-      "Practicing: HTML, CSS, TYPO3"
-    ]
   }
+  // {
+  //   "title": "Web Developer (Internship)",
+  //   "name": "Zone35 - Berlin",
+  //   "from": "May 2019",
+  //   "details": [
+  //     "Practicing: HTML, CSS, TYPO3"
+  //   ]
+  // }
 ]
 
 export const educations = [
@@ -67,7 +68,7 @@ export const educations = [
     ]
   },
   {
-    "title": "M.Sc. Physics (discontinued)",
+    "title": "M.Sc. Physics",
     "name": "Humboldt University of Berlin",
     "from": "2017",
     "to": "2019",
