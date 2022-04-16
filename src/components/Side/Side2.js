@@ -6,7 +6,7 @@ const Side = () => {
     <>
       <div className="side__section langs">
         <h3 className="section__title">Languages</h3>
-        <div className="section__body">German, English</div>
+        <div className="section__body">English (fluent)<br/>German (advanced)<br/>Persian (native)</div>
       </div>
     </>
   )
