@@ -4,10 +4,6 @@ import { educations, certifications } from '../../data';
 
 const Main2 = () => {
   return (<>
-    <div className="section">
-      <h2>Private Projects</h2>
-      <p>Checkout my <a href={'https://github.com/nancologist'}>Github</a>.</p>
-    </div>
     <div className="section certs">
       <h2>Courses</h2>
       {certifications.map(cert => {
