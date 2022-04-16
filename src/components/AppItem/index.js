@@ -9,7 +9,7 @@ const AppItem = (props) => {
 
   return (
     <div className={styles.cmp}>
-      
+
       <div className={styles.header}>
         <div className={styles.title}>
           <h3>{title}</h3>
@@ -17,12 +17,14 @@ const AppItem = (props) => {
         </div>
         <div className={styles.date}>{formattedDate}</div>
       </div>
-      
-      <div className={styles.content}>
-        <ul className={styles.list}>
-          {details.map((detail, index) => (<li key={index}>{detail}</li>))}
-        </ul>
-      </div>
+
+      {details?
+        <div className={styles.content}>
+          <ul className={styles.list}>
+            {details.map((detail, index) => (<li key={index}>{detail}</li>))}
+          </ul>
+        </div> : null
+      }
 
     </div>
   );

@@ -38,9 +38,10 @@ export const workXps = [
     "from": "Sep 2019",
     "to": "Jan 2021",
     "details": [
-      "TDD, End2End Testing, BE and FE Projects",
+      "TDD, End2End Testing",
       "Agile Projects, Kanban, Scrum, Jira, Confluence, GitLab",
       "Security and hacking sessions",
+      "Thesis: Developing a web performance benchmarking app using ElectronJS powered by Google Lighthouse",
       "Techs: Java, JS, Selenium, Spring, jQuery, VueJS, Confluence, Jira, GitLab, MS Teams"
     ]
   }
@@ -95,6 +96,67 @@ export const educations = [
     ]
   }
 ]
+
+export const certifications = [
+  {
+    "title": "AWS",
+    "name": "8hrs - A Complete Introduction (Maximilian Schwarzmüller)",
+    "from": "Oct 2021",
+    "to": "Jan 2022",
+    "details": [
+      "Lambda, API Gateway, DynamoDB, Cognito",
+      "S3, CloudFront, Route53"
+    ]
+  },
+  {
+    "title": "Docker",
+    "name": "20hrs - Docker Mastery (Bret Fisher)",
+    "from": "Jan 2021",
+    "to": "Juli 2021",
+    "details": [
+      "Lambda, API Gateway, DynamoDB, Cognito",
+      "S3, CloudFront, Route53"
+    ]
+  },
+  {
+    "title": "TypeScript",
+    "name": "15hrs - Understanding Typescript (Maximilian Schwarzmüller)",
+    "from": "Nov 2020",
+    "to": "Dec 2020"
+  },
+  {
+    "title": "NodeJS",
+    "name": "40hrs - The Complete Guide (Maximilian Schwarzmüller)",
+    "from": "Apr 2020",
+    "to": "Jun 2020",
+    "details": [
+      "ExpressJS, MVC, EJS, Sequelize, Mongoose, Validators",
+      "REST API, Pagination, Socket.io, GraphQL, NodeJS+TS"
+    ]
+  },
+  {
+    "title": "ReactJS",
+    "name": "40hrs - The Complete Guide (Maximilian Schwarzmüller)",
+    "from": "Mar 2020",
+    "to": "May 2020",
+    "details": [
+      "Redux, React Router, Hooks, ...",
+    ]
+  },
+  {
+    "title": "VueJS",
+    "name": "30hrs - The Complete Guide (Maximilian Schwarzmüller)",
+    "from": "Jan 2020",
+    "to": "Mar 2020",
+    "details": [
+      "VueRouter, Vuex, ..."
+    ]
+  }
+]
+
+// ####################################
+// ############ SIDE: #################
+// ####################################
 
 export const myLinks = [
   {

@@ -1,16 +1,27 @@
 import React from 'react';
 import AppItem from '../AppItem';
-import { educations } from '../../data';
+import { educations, certifications } from '../../data';
 
 const Main2 = () => {
   return (<>
     <div className="section">
       <h2>Private Projects</h2>
-      <p>ToDo....</p>
+      <p>Checkout my <a href={'https://github.com/nancologist'}>Github</a>.</p>
     </div>
     <div className="section certs">
-      <h2>IT Certifications</h2>
-      <p>ToDo....</p>
+      <h2>Courses</h2>
+      {certifications.map(cert => {
+        return (
+          <AppItem
+            key={cert.name}
+            fromDate={cert.from}
+            toDate={cert.to}
+            title={cert.title}
+            name={cert.name}
+            details={cert.details}
+          />
+        );
+      })}
     </div>
     <div className="section education">
       <h2>Education</h2>
