@@ -171,22 +171,22 @@ export const certifications = [
 // ####################################
 
 export const myLinks = [
-  {
-    "label": "Website",
-    "link": "https://www.nancologist.com"
-  },
-  {
-    "label": "GitHub",
-    "link": "https://github.com/nancologist"
-  },
+  // {
+  //   "label": "Website",
+  //   "link": "https://www.nancologist.com"
+  // },
+  // {
+  //   "label": "GitHub",
+  //   "link": "https://github.com/nancologist"
+  // },
   {
     "label": "LinkedIn",
     "link": "https://www.linkedin.com/nancologist"
   },
-  {
-    "label": "CodeWars",
-    "link": "https://www.codewars.com/users/nancologist"
-  }
+  // {
+  //   "label": "CodeWars",
+  //   "link": "https://www.codewars.com/users/nancologist"
+  // }
 ]
 
 export const skills = [
@@ -194,34 +194,34 @@ export const skills = [
     "scope": "Frontend",
     "techs": [
       {
-        "name": "ReactJS",
+        "name": "Angular/TS",
         "level": 4
+      },
+      {
+        "name": "ReactJS",
+        "level": 3
       },
       {
         "name": "VueJS",
-        "level": 4
-      },
-      {
-        "name": "TypeScript",
         "level": 3
-      }
+      },
     ]
   },
   {
     "scope": "Backend",
     "techs": [
       {
-        "name": "NodeJS (ExpressJS)",
-        "level": 4
-      },
-      {
-        "name": "Python (Sanic, FastAPI, Flusk)",
+        "name": "NodeJS (NestJS)",
         "level": 4
       },
       {
         "name": "Java (Spring)",
         "level": 3
-      }
+      },
+      {
+        "name": "Python (Sanic, FastAPI, Flusk)",
+        "level": 3
+      },
     ]
   }
 ]
