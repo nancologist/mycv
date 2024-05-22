@@ -5,7 +5,7 @@ export const workXps = [
     "from": "Oct 2022",
     "to": "present",
     "details": [
-      "Developing and designing solutions an application for pharmacists",
+      "Developing and designing solutions of an application for pharmacists",
       "Design Solution Review, Code Review, Pair Programming, CI/CD, E2E and UT Testing",
       "Techs: PostgreSQL, NestJS, TypeORM, Angular, NgRx, AWS SQS, AWS S3",
       "Tools: GitLab, IntelliJ, Jenkins, Docker, SonarQube, Jira, Confluence"
