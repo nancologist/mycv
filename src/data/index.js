@@ -1,9 +1,21 @@
 export const workXps = [
   {
     "title": "Fullstack Developer",
-    "name": "CompuGroup Medical/Docmetric - Berlin",
-    "from": "May 2021",
+    "name": "CompuGroup Medical/ifap GmbH - Munich",
+    "from": "Oct 2022",
     "to": "present",
+    "details": [
+      "Developing and designing solutions an application for pharmacists",
+      "Design Solution Review, Code Review, Pair Programming, CI/CD, E2E and UT Testing",
+      "Techs: PostgreSQL, NestJS, TypeORM, Angular, NgRx, AWS SQS, AWS S3",
+      "Tools: GitLab, IntelliJ, Jenkins, Docker, SonarQube, Jira, Confluence"
+    ]
+  },
+  {
+    "title": "Fullstack Developer",
+    "name": "CompuGroup Medical/Docmetric GmbH - Berlin",
+    "from": "May 2021",
+    "to": "Sep 2022",
     "details": [
       "Developing and Engineering Medical Statistic Applications",
       "Amending the source code quality and structure (modularizing)",
@@ -33,9 +45,9 @@ export const workXps = [
     ]
   },
   {
-    "title": "Fullstack Developer (Apprenticeship)",
+    "title": "Fullstack Developer (Internship & Apprenticeship)",
     "name": "Publicis Pixelpark - Berlin",
-    "from": "Sep 2019",
+    "from": "Jun 2019",
     "to": "Jan 2021",
     "details": [
       "TDD, End2End Testing",
