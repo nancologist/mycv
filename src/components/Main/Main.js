@@ -16,8 +16,8 @@ const Main = (props) => {
         <h2>Profile</h2>
         <p>Fullstack engineer with {new Date().getFullYear() - 2019}+ years of hands-on experience designing, developing and implementing the applications, solutions and quality assurance using a wide range of technologies and programming languages.</p>
         <p>Using best practices and latest design patterns to improve the code quality.</p>
-        <p>A team player, worked in big teams using agile project methods and tools. Disciplined and following team rules and clean codes.</p>
-        <p>Enthusiast to learn further technologies. Taking courses of other web technologies parallel to the professional works and projects. Keeping on learning and having fun with coding and debugging in days, nights, weekends or even on the way!</p>
+        <p>A team player, worked in big teams using agile project methods and tools. Disciplined and following team rules and clean codes. Postivie technical discussions with other team members.</p>
+        <p>Enthusiast to learn new technologies and making my knowledge deeper in technologies which I have used over the years.</p>
       </div>
 
       <div className="section employment">

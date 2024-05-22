@@ -6,27 +6,27 @@ import { myLinks, skills } from '../../data';
 
 const Side = () => {
   return (
-    <>        
+    <>
       <div className="pic-container">
         <img src={mypic} alt="profile pic" className="pic"/>
       </div>
-      
+
       <div className="side__section contact">
         <h3 className="section__title">Contact</h3>
         <div className="section__body">
-          <p>Schnellerstr. 38</p>
-          <p>12439 Berlin</p>
+          <p>Hermann-Dorner-Allee 13B</p>
+          <p>12489 Berlin</p>
           <p>Germany</p>
           <p>+49 157 587 48279</p>
           <p>
             <a href="mailto: nancologist@gmail.com">nancologist@gmail.com</a>
           </p>
-          <p>
-            <a href="https://www.nancologist.com" target="_blank" rel="noopener noreferrer">www.nancologist.com</a>
-          </p>
+          {/*<p>*/}
+          {/*  <a href="https://www.nancologist.com" target="_blank" rel="noopener noreferrer">www.nancologist.com</a>*/}
+          {/*</p>*/}
         </div>
       </div>
-      
+
       <div className="side__section links">
         <h3 className="section__title">Links</h3>
         <div className="section__body">
@@ -38,7 +38,7 @@ const Side = () => {
                     href={link.link}
                     rel="noreferrer"
                     target="_blank"
-                  >{link.label}</a>  
+                  >{link.label}</a>
                 </li>
               )
             })}
@@ -71,12 +71,12 @@ const Side = () => {
             })
           }
 
-          <span className="scope"><b>Testing:</b></span>
-          <span>JUnit, Selenium, Puppeteer, Mockito, ...</span>
+          {/*<span className="scope"><b>Testing:</b></span>*/}
+          {/*<span>JUnit, Selenium, Puppeteer, Mockito, ...</span>*/}
 
-          <span className="scope"><b>Others:</b></span>
-          <span>Docker, Firebase, AWS, GraphQL, React Native, MongoDB, SQL, PHP, jQuery</span>
-          
+          {/*<span className="scope"><b>Others:</b></span>*/}
+          {/*<span>Docker, Firebase, AWS, GraphQL, React Native, MongoDB, SQL, PHP, jQuery</span>*/}
+
         </div>
       </div>
     </>
