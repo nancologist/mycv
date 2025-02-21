@@ -47,7 +47,7 @@ export const workXps = [
         to: "Aug 2013"
     },
     {
-        title: "Ehrenamt: Vorlesepatin",
+        title: "Vorlesepatin (ehrenamtlich)",
         name: "Kita Outlaw - Leipzig",
         from: "Jan 2013",
         to: "Aug 2013"

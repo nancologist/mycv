@@ -10,7 +10,7 @@ const Side = () => {
           </div>
 
           <div className="side__section contact">
-              <h3 className="section__title">Kontakt</h3>
+              <h3 className="section__title">Persönliche Daten</h3>
               <div className="section__body">
                   <p>Hermann-Dorner-Allee 13B</p>
                   <p>12489 Berlin</p>

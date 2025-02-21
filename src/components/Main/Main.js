@@ -21,7 +21,7 @@ const Main = (props) => {
       </div>
 
       <div className="section employment">
-        <h2>Work Experience</h2>
+        <h2>Berufliche Laufbahn</h2>
         {workXps.map(xp => {
           return (
             <AppItem
