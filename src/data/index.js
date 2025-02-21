@@ -14,13 +14,13 @@ export const workXps = [
         name: "ALICE - Museum für Kinder im FEZ-Berlin",
         from: "2016",
         to: "2019",
-        details: [
-            "Regelmäßige, gründliche und zügige Einarbeitung in neue Themengebiete der Ausstellung",
-            "Vor- und Nachbereitung des täglichen Ausstellungsbetriebs",
-            "Betreuung der Familienbesucher*innen in der Ausstellung an Wochenenden und in den Ferien",
-            "Moderation der Ausstellung für Kindergartengruppen Schulklassen sowie Gruppen von Auszubildenden und Studierenden",
-            "Durchführung von thematischen Sonderveranstaltungen im Format Familien-Kreativ-Sonntag"
-        ]
+        // details: [
+        //     "Regelmäßige, gründliche und zügige Einarbeitung in neue Themengebiete der Ausstellung",
+        //     "Vor- und Nachbereitung des täglichen Ausstellungsbetriebs",
+        //     "Betreuung der Familienbesucher*innen in der Ausstellung an Wochenenden und in den Ferien",
+        //     "Moderation der Ausstellung für Kindergartengruppen Schulklassen sowie Gruppen von Auszubildenden und Studierenden",
+        //     "Durchführung von thematischen Sonderveranstaltungen im Format Familien-Kreativ-Sonntag"
+        // ]
     },
     {
         title: "Darstellerin und Teamleiter im partizipativen Theaterprojekt \"Zauberschloss\"",
