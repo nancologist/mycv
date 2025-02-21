@@ -150,14 +150,3 @@ export const hobbies = [
         title: "Tanzcompany C1 bei flatback-and-cry e.V."
     }
 ]
-
-export const skills = [
-    {
-        scope: "Sprachen",
-        skills: ["Russisch C1, Englisch B2"],
-    },
-    {
-        scope: "Führerschein",
-        skills: ["Klasse B1"]
-    }
-]

@@ -8,8 +8,8 @@ const Main = (props) => {
   return (
     <>
       <div className="section title">
-        <h1>Morteza Jalilifar</h1>
-        <small>FULL STACK DEVELOPER</small>
+        <h1>Angelique Kampe</h1>
+        <small>Sozialpädagogin</small>
       </div>
 
       {/*<div className="section profile">*/}
