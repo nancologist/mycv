@@ -27,7 +27,7 @@ const Side = () => {
               <div className="section__body"
               >Deutsch (Muttersprache)<br/>
                   Russisch (Muttersprache)<br/>
-                  Englisch (fliessend)
+                  Englisch (fließend)
               </div>
           </div>
 
