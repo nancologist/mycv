@@ -25,8 +25,8 @@ export const workXps = [
         // ]
     },
     {
-        title: "Darstellerin und Teamleiter im partizipativen Theaterprojekt \"Zauberschloss\"",
-        name: "FEZ-Berlin",
+        title: "Darstellerin und Teamleiter",
+        name: "Partizipativen Theaterprojekt Zauberschloss - FEZ-Berlin",
         from: "Jan 2015",
         to: "Feb 2018"
     },
@@ -75,8 +75,8 @@ export const educations = [
     {
         title: "Fernstudium der Ernährungsberatung",
         name: "SGD Fernschule",
-        from: "MÄR 2020",
-        to: "MAI 2024"
+        from: "Mär 2020",
+        to: "Mai 2024"
     },
     {
         "title": "Studium der Sozialen Arbeiten",
@@ -94,7 +94,6 @@ export const educations = [
         "title": "deutsch-russisch bilinguales Abitur",
         "name": "Johann-Gottfried-Herder Gymnasium",
         from: "2012",
-        to: "2012"
     }
 ]
 
@@ -108,11 +107,13 @@ export const internships = [
     {
         from: "Mär 2016",
         to: "Apr 2016",
-        title: "Praktikum in der rechtlichen Betreuung bei Peter Schmelzer"
+        title: "Praktikum",
+        name: "Rechtlichen Betreuung Peter Schmelzer"
     },
     {
         from: "Mai 2015",
-        title: "Praktikum in der logopädischen Praxis Sprechmund Berlin"
+        title: "Praktikum",
+        name: "Logopädischen Praxis Sprechmund Berlin"
     },
     {
         from: "Sep 2014",
@@ -122,7 +123,8 @@ export const internships = [
     },
     {
         from: "Aug 2013",
-        title: "Betreuerin für Travelworks Adventure Camp England"
+        title: "Betreuerin",
+        name: "Travelworks Adventure Camp England"
     },
     {
         from: "Aug 2012",
@@ -137,7 +139,8 @@ export const hobbies = [
         title: "Jugendcompany TanzZeit"
     },
     {
-        title: "Teilnahme am Global Water Dance - internationales, politisches Performanceprojekt",
+        title: "Teilnahme am Global Water Dance",
+        name: "internationales, politisches Performanceprojekt",
         from: "Jun 2015"
     },
     {
@@ -152,6 +155,7 @@ export const hobbies = [
     {
         from: "2008",
         to: "2012",
-        title: "Tanzcompany C1 bei flatback-and-cry e.V."
+        title: "Tanzcompany C1",
+        name: "flatback-and-cry e.V."
     }
 ]
