@@ -1,15 +1,18 @@
 import React from 'react';
 import './Side.css';
 
-const Side = () => {
+const Side2 = () => {
   return (
     <>
       <div className="side__section langs">
-        <h3 className="section__title">Languages</h3>
-        <div className="section__body">English (fluent)<br/>German (fluent)<br/>Persian (native)</div>
+        <h3 className="section__title">Sprachen</h3>
+        <div className="section__body"
+            >Deutsch (Muttersprache)<br/>
+            Russisch (Muttersprache)<br/>
+            Englisch (fliessend)</div>
       </div>
     </>
   )
 }
 
-export default Side;
+export default Side2;

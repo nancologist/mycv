@@ -5,7 +5,7 @@ import { educations, internships } from '../../data';
 const Main2 = () => {
   return (<>
     <div className="section education">
-      <h2>Education</h2>
+      <h2>Ausbildung</h2>
       {educations.map(edu => {
         return (
           <AppItem
@@ -21,7 +21,7 @@ const Main2 = () => {
     </div>
 
     <div className="section certs">
-      <h2>Courses</h2>
+      <h2>Praktika / Ferienjobs</h2>
       {internships.map(cert => {
         return (
           <AppItem

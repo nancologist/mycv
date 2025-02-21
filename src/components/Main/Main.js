@@ -36,10 +36,10 @@ const Main = (props) => {
         })}
       </div>
 
-      <div className="section">
-        <h2>Private Projects</h2>
-        <p>Checkout my <a href={'https://github.com/nancologist'}>Github</a>.</p>
-      </div>
+      {/*<div className="section">*/}
+      {/*  <h2>Private Projects</h2>*/}
+      {/*  <p>Checkout my <a href={'https://github.com/nancologist'}>Github</a>.</p>*/}
+      {/*</div>*/}
     </>
   );
 };

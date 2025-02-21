@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app">
       <Template main={<Main />} side={<Side />} />
-      <Template main={<Main2 />} side={<Side2 />}/>
+      {/*<Template main={<Main2 />} side={<Side2 />}/>*/}
     </div>
   );
 }
