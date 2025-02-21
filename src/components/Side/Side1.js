@@ -14,7 +14,7 @@ const Side = () => {
               <div className="section__body">
                   <p>Hermann-Dorner-Allee 13B</p>
                   <p>12489 Berlin</p>
-                  <p>Germany</p>
+                  {/*<p>Germany</p>*/}
                   <p>+49 151 215 32474</p>
                   <p>
                       <a href="mailto: angelique.kampe@gmail.com">angelique.kampe@gmail.com</a>

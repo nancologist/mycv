@@ -9,7 +9,7 @@ const Main = (props) => {
     <>
       <div className="section title">
         <h1>Angelique Kampe</h1>
-        <small>Sozialp‰dagogin</small>
+        <small>Sozialp√§dagogin</small>
       </div>
 
       {/*<div className="section profile">*/}

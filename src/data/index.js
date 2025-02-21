@@ -5,16 +5,18 @@ export const workXps = [
         to: "heute"
     },
     {
-        title: "Erzieherin an der Grunewald-Grundschule",
+        title: "Erzieherin",
+        name: "Grunewald-Grundschule",
         from: "Sep 2019",
         to: "Sep 2020"
     },
     {
-        title: "Museumspädagogische Mitarbeiterin (Gruppenführungen mit Kita- und Grundschulkindern)",
+        title: "Museumspädagogische Mitarbeiterin",
         name: "ALICE - Museum für Kinder im FEZ-Berlin",
         from: "2016",
         to: "2019",
         // details: [
+        // Gruppenführungen mit Kita- und Grundschulkindern
         //     "Regelmäßige, gründliche und zügige Einarbeitung in neue Themengebiete der Ausstellung",
         //     "Vor- und Nachbereitung des täglichen Ausstellungsbetriebs",
         //     "Betreuung der Familienbesucher*innen in der Ausstellung an Wochenenden und in den Ferien",
@@ -35,10 +37,13 @@ export const workXps = [
         to: "Aug 2015"
     },
     {
-        title: "Pädagogische Honorartätigkeit (Gruppenleitung spielpädagogische Projekte mit Familien)",
+        title: "Pädagogische Honorartätigkeit",
         name: "FEZ-Berlin",
         from: "Feb 2015",
-        to: "Jun 2019"
+        to: "Jun 2019",
+        // details: [
+        //     "Gruppenleitung spielpädagogische Projekte mit Familien"
+        // ]
     },
     {
         title: "Hausaufgabenbetreuung",
