@@ -1,6 +1,6 @@
 import React from 'react';
 import AppItem from '../AppItem';
-import { educations, certifications } from '../../data';
+import { educations, internships } from '../../data';
 
 const Main2 = () => {
   return (<>
@@ -22,7 +22,7 @@ const Main2 = () => {
 
     <div className="section certs">
       <h2>Courses</h2>
-      {certifications.map(cert => {
+      {internships.map(cert => {
         return (
           <AppItem
             key={cert.name}

@@ -1,227 +1,163 @@
 export const workXps = [
-  {
-    "title": "Fullstack Developer",
-    "name": "CompuGroup Medical/ifap GmbH - Munich",
-    "from": "Oct 2022",
-    "to": "present",
-    "details": [
-      "Developing and designing solutions of an application for pharmacists",
-      "Design Solution Review, Code Review, Pair Programming, CI/CD, E2E and UT Testing",
-      "Techs: PostgreSQL, NestJS, TypeORM, Angular, NgRx, AWS SQS, AWS S3",
-      "Tools: GitLab, IntelliJ, Jenkins, Docker, SonarQube, Jira, Confluence"
-    ]
-  },
-  {
-    "title": "Fullstack Developer",
-    "name": "CompuGroup Medical/Docmetric GmbH - Berlin",
-    "from": "May 2021",
-    "to": "Sep 2022",
-    "details": [
-      "Developing and Engineering Medical Statistic Applications",
-      "Amending the source code quality and structure (modularizing)",
-      "Techs: ElasticSearch, Python, Sanic, Flask, TS, React, Vue, Sass, Docker",
-      "Tools: WebStorm, PyCharm, Jira, Confluence"
-    ]
-  },
-  // {
-  //   "title": "Backend Developer",
-  //   "name": "dotSource GmbH - Berlin",
-  //   "from": "Apr 2021",
-  //   "details": [
-  //     "Parcticing CommerceTools Microservices",
-  //     "Tech: NodeJS, ExpressJS, TS, CommerceTools"
-  //   ]
-  // },
-  {
-    "title": "CTO/Developer",
-    "name": "Großjungig AI - Berlin",
-    "from": "Feb 2021",
-    "to": "Apr 2021",
-    "details": [
-      "Directing and Coordinating Dev Team",
-      "Defining Style Guides",
-      "Fullstack Development",
-      "Techs: NodeJS, ExpressJS, ReactJS, MongoDB, Trello, Slack"
-    ]
-  },
-  {
-    "title": "Fullstack Developer (Internship & Apprenticeship)",
-    "name": "Publicis Pixelpark - Berlin",
-    "from": "Jun 2019",
-    "to": "Jan 2021",
-    "details": [
-      "TDD, End2End Testing",
-      "Agile Projects, Kanban, Scrum, Jira, Confluence, GitLab",
-      "Security and hacking sessions",
-      "Thesis: Developing a web performance benchmarking app using ElectronJS powered by Google Lighthouse",
-      "Techs: Java, JS, Selenium, Spring, jQuery, VueJS, Confluence, Jira, GitLab, MS Teams"
-    ]
-  }
-  // {
-  //   "title": "Web Developer (Internship)",
-  //   "name": "Zone35 - Berlin",
-  //   "from": "May 2019",
-  //   "details": [
-  //     "Practicing: HTML, CSS, TYPO3"
-  //   ]
-  // }
+    {
+        title: "Elternzeit",
+        from: "Okt 2020",
+        to: "heute"
+    },
+    {
+        title: "Erzieherin an der Grunewald-Grundschule",
+        from: "Sep 2019",
+        to: "Sep 2020"
+    },
+    {
+        title: "Museumspädagogische Mitarbeiterin (Gruppenführungen mit Kita- und Grundschulkindern)",
+        name: "ALICE - Museum für Kinder im FEZ-Berlin",
+        from: "2016",
+        to: "2019",
+        details: [
+            "Regelmäßige, gründliche und zügige Einarbeitung in neue Themengebiete der Ausstellung",
+            "Vor- und Nachbereitung des täglichen Ausstellungsbetriebs",
+            "Betreuung der Familienbesucher*innen in der Ausstellung an Wochenenden und in den Ferien",
+            "Moderation der Ausstellung für Kindergartengruppen Schulklassen sowie Gruppen von Auszubildenden und Studierenden",
+            "Durchführung von thematischen Sonderveranstaltungen im Format Familien-Kreativ-Sonntag"
+        ]
+    },
+    {
+        title: "Darstellerin und Teamleiter im partizipativen Theaterprojekt \"Zauberschloss\"",
+        name: "FEZ-Berlin",
+        from: "Jan 2015",
+        to: "Feb 2018"
+    },
+    {
+        title: "Mitarbeit und Moderation bei FEZitty",
+        name: "FEZ-Berlin",
+        from: "Jul 2015",
+        to: "Aug 2015"
+    },
+    {
+        title: "Pädagogische Honorartätigkeit (Gruppenleitung spielpädagogische Projekte mit Familien)",
+        name: "FEZ-Berlin",
+        from: "Feb 2015",
+        to: "Jun 2019"
+    },
+    {
+        title: "Hausaufgabenbetreuung",
+        name: "Grundschule Grünau Leipzig",
+        from: "Jan 2013",
+        to: "Aug 2013"
+    },
+    {
+        title: "Ehrenamt: Vorlesepatin",
+        name: "Kita Outlaw - Leipzig",
+        from: "Jan 2013",
+        to: "Aug 2013"
+    },
+    {
+        title: "Tanzvertretungslehrerin",
+        name: "flatback-and-cry e.V.",
+        from: "Feb 2011",
+        to: "Feb 2011"
+    },
+    {
+        title: "Bürotätigkeit",
+        name: "flatback-and-cry e.V.",
+        from: "Jan 2011",
+        to: "Feb 2012"
+    }
 ]
 
 export const educations = [
-  {
-    "title": "IT Specialist - Software Development",
-    "name": "OSZ Informations- und Medizintechnik",
-    "from": "Sep 2019",
-    "to": "Jan 2021",
-    "details": [
-      "C#, SQL",
-      "Software Architectures, OOP, Structural Programming, Design Patterns",
-      "Infomration and Telecommunication Systems",
-      "Social and Economic Studies"
-    ]
-  },
-  {
-    "title": "M.Sc. Physics",
-    "name": "Humboldt University of Berlin",
-    "from": "2017",
-    "to": "2019",
-    "details": [
-      "Achieved Courses: Image Processing, Statistic Physics, Cyclotron"
-    ]
-  },
-  {
-    "title": "German for University Studies",
-    "name": "Otto-von-Guericke University Magdeburg",
-    "from": "2015",
-    "to": "2016",
-    "details": [
-      "Achieved Degree: DSH2 (C1)"
-    ]
-  },
-  {
-    "title": "B.Sc. Physics",
-    "name": "Amirkabir University of Technology Tehran",
-    "from": "2007",
-    "to": "2013",
-    "details": [
-      "Thesis: Simulation of Trapping Ions in Hyberboloid Quad Pole (Matlab)"
-    ]
-  }
+    {
+        title: "Fernstudium der Ernährungsberatung",
+        name: "SGD Fernschule",
+        from: "MÄR 2020",
+        to: "MAI 2024"
+    },
+    {
+        "title": "Studium der Sozialen Arbeiten",
+        "name": "Alice-Salomon-Hochschule",
+        "from": "Okt 2015",
+        "to": "Jun 2019"
+    },
+    {
+        "title": "Studium der Germanistik/Grundschulpädagogik",
+        "name": "Universität Leipzig",
+        "from": "2012",
+        "to": "2014 "
+    },
+    {
+        "title": "deutsch-russisch bilinguales Abitur",
+        "name": "Johann-Gottfried-Herder Gymnasium",
+        from: "2012",
+        to: "2012"
+    }
 ]
 
-export const certifications = [
-  {
-    "title": "AWS",
-    "name": "8hrs - A Complete Introduction (Maximilian Schwarzmüller)",
-    "from": "Oct 2021",
-    "to": "Jan 2022",
-    "details": [
-      "Lambda, API Gateway, DynamoDB, Cognito",
-      "S3, CloudFront, Route53"
-    ]
-  },
-  {
-    "title": "Docker",
-    "name": "20hrs - Docker Mastery (Bret Fisher)",
-    "from": "Jan 2021",
-    "to": "Juli 2021",
-    "details": [
-      "Lambda, API Gateway, DynamoDB, Cognito",
-      "S3, CloudFront, Route53"
-    ]
-  },
-  {
-    "title": "TypeScript",
-    "name": "15hrs - Understanding Typescript (Maximilian Schwarzmüller)",
-    "from": "Nov 2020",
-    "to": "Dec 2020"
-  },
-  {
-    "title": "NodeJS",
-    "name": "40hrs - The Complete Guide (Maximilian Schwarzmüller)",
-    "from": "Apr 2020",
-    "to": "Jun 2020",
-    "details": [
-      "ExpressJS, MVC, EJS, Sequelize, Mongoose, Validators",
-      "REST API, Pagination, Socket.io, GraphQL, NodeJS+TS"
-    ]
-  },
-  {
-    "title": "ReactJS",
-    "name": "40hrs - The Complete Guide (Maximilian Schwarzmüller)",
-    "from": "Mar 2020",
-    "to": "May 2020",
-    "details": [
-      "Redux, React Router, Hooks, ...",
-    ]
-  },
-  {
-    "title": "VueJS",
-    "name": "30hrs - The Complete Guide (Maximilian Schwarzmüller)",
-    "from": "Jan 2020",
-    "to": "Mar 2020",
-    "details": [
-      "VueRouter, Vuex, ..."
-    ]
-  }
-]
+export const internships = [
+    {
+        title: "Praktikum im Rahmen des Studiums",
+        name: "Theaterpädagogischen, sozio-kulturelle Einrichtung Kreativhaus",
+        from: "Okt 2017",
+        to: "Feb 2018"
+    },
+    {
+        from: "Mär 2016",
+        to: "Apr 2016",
+        title: "Praktikum in der rechtlichen Betreuung bei Peter Schmelzer"
+    },
+    {
+        from: "Mai 2015",
+        title: "Praktikum in der logopädischen Praxis Sprechmund Berlin"
+    },
+    {
+        from: "Sep 2014",
+        to: "Feb 2015",
+        title: "Praktikum Spiel- und Kulturpädagogik",
+        name: "Bei Iveta Tacke, FEZ-Berlin"
+    },
+    {
+        from: "Aug 2013",
+        title: "Betreuerin für Travelworks Adventure Camp England"
+    },
+    {
+        from: "Aug 2012",
+        title: "Betreuerin bei KIEZ Frauensee"
+    }
+];
 
-// ####################################
-// ############ SIDE: #################
-// ####################################
-
-export const myLinks = [
-  // {
-  //   "label": "Website",
-  //   "link": "https://www.nancologist.com"
-  // },
-  // {
-  //   "label": "GitHub",
-  //   "link": "https://github.com/nancologist"
-  // },
-  {
-    "label": "LinkedIn",
-    "link": "https://www.linkedin.com/nancologist"
-  },
-  // {
-  //   "label": "CodeWars",
-  //   "link": "https://www.codewars.com/users/nancologist"
-  // }
+export const hobbies = [
+    {
+        from: "Jan 2016",
+        to: "Jan 2017",
+        title: "Jugendcompany TanzZeit"
+    },
+    {
+        title: "Teilnahme am Global Water Dance - internationales, politisches Performanceprojekt",
+        from: "Jun 2015"
+    },
+    {
+        from: "Mär 2015",
+        title: "künstlerisches Projekt „WALD“ mit Heike Hennig"
+    },
+    {
+        from: "2012",
+        to: "2013",
+        title: "Leipziger Tanztheater"
+    },
+    {
+        from: "2008",
+        to: "2012",
+        title: "Tanzcompany C1 bei flatback-and-cry e.V."
+    }
 ]
 
 export const skills = [
-  {
-    "scope": "Frontend",
-    "techs": [
-      {
-        "name": "Angular/TS",
-        "level": 4
-      },
-      {
-        "name": "ReactJS",
-        "level": 3
-      },
-      {
-        "name": "VueJS",
-        "level": 3
-      },
-    ]
-  },
-  {
-    "scope": "Backend",
-    "techs": [
-      {
-        "name": "NodeJS (NestJS)",
-        "level": 4
-      },
-      {
-        "name": "Java (Spring)",
-        "level": 3
-      },
-      {
-        "name": "Python (Sanic, FastAPI, Flusk)",
-        "level": 3
-      },
-    ]
-  }
+    {
+        scope: "Sprachen",
+        skills: ["Russisch C1, Englisch B2"],
+    },
+    {
+        scope: "Führerschein",
+        skills: ["Klasse B1"]
+    }
 ]
